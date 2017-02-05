@@ -1,15 +1,16 @@
-.App {
+.Main {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
 }
 
-.App-logo {
+.Main-logo {
   height: 250px;
+  margin-top: 20px;
 }
 
-.App-header {
+.Main-header {
   margin: 30px;
   font-size: 48px;
   color: black;
