@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 import { Provider } from 'react-redux';
-import { createSore } from 'redux';
+import { createStore } from 'redux';
 import reducer from './reducers/index';
 
 const __REDUX_DEVTOOLS_EXTENSION__ = window.__REDUX_DEVTOOLS_EXTENSION__;
