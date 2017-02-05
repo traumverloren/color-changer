@@ -9,7 +9,7 @@ describe('color reducer', () => {
 
   it('should handle CHANGE_COLOR', () => {
     expect(
-      reducer(undefined, {})
-    ).toEqual('white')
+      reducer(undefined, {type: 'CHANGE_COLOR', color: 'blue'})
+    ).toEqual('blue')
   })
 })

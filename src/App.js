@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import rainbow from './images/cute_rainbow.png';
+import palette from './images/palette.svg';
 import './App.css';
+import ColorButtonContainer from './ColorButtonContainer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Color Changer</h1>
-        <img src={rainbow} alt="rainbow" />
+      <div className="App" style={{backgroundColor: 'white'}}>
+        <div>
+          <img className="App-logo" src={palette} alt="palette" />
+        </div>
+        <div className="App-header">Color Changer</div>
+        <ColorButtonContainer />
       </div>
     );
   }
